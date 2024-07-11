@@ -14,19 +14,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7265911073:AAGTlH-ejkHuBOYYd2GJOQmJRFEwB6WCsYE")
+APP_ID = int(os.environ.get("APP_ID", "16073849"))
+API_HASH = os.environ.get("API_HASH", "e84dd69cd0504b8b45b2fd6a4e19068d")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+OWNER = os.environ.get("OWNER", "@Shreeshiva323") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "5536032493")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://viratfilter:virat123@cluster0.0ug4o4o.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME", "Cluater5")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002229628913"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002229628913"))
 
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
